@@ -20,10 +20,10 @@ AnchorToSelect
 
 <h4>Option Definitions</h4>
 <ul>
-<li><strong>container:</strong> is an array object. It requires that the user pass an array of selectors to container so it knows where to look for anchor elements.</li>
-<li><strong>idName:</strong> is a string value. It's the ID attribute that will be added to the generated select element.</li>
-<li><strong>debugFlag:</strong> is a boolean value. If set to 1, you will see an output of all links that were iterated over and their respective containers inside of the console.</li>
-<li><strong>placeholder:</strong> is a string value. It's will be added as the text for the first option element of the generated select element.</li>
+<li><strong>container:</strong> takes an array object. It requires that the user pass an array of selectors to container so it knows where to look for anchor elements.</li>
+<li><strong>idName:</strong> takes a string value. It's the ID attribute that will be added to the generated select element.</li>
+<li><strong>debugFlag:</strong> takes a boolean value. If set to 1, you will see an output of all links that were iterated over and their respective containers inside of the console.</li>
+<li><strong>placeholder:</strong> takes a string value. It's will be added as the text for the first option element of the generated select element.</li>
 </ul>
 
 <h2>Usage</h2>
