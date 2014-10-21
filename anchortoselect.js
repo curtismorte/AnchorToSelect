@@ -26,6 +26,7 @@ the specific language governing permissions and limitations under the Apache Lic
 		
 		var settings = $.extend({
 			//These are the default options
+			container: [],
 			idName: 'anchortoselect',
 			debugFlag: 0,
 			placeholder: 'Select a page to visit'
