@@ -31,6 +31,31 @@ AnchorToSelect
 ```
 <body>
 
+  <!-- Get all the anchor elements inside of <nav> -->
+  <nav class="containerClass">
+    <ul>
+      <li>
+        <a href="#something_1">Something 1</a>
+      </li>
+      <li>
+        <a href="#something_2">Something 2</a>
+      </li>
+      <li>
+        <a href="#something_3">Something 3</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <!-- Get all the anchor elements inside of parent <div> -->
+  <div id="containerId">
+    <a href="#something_4">Something 4</a>
+    <div>
+      <a href="#something_5">Something 5</a>
+      <a href="#something_6">Something 6</a>
+      <a href="#something_7">Something 7</a>
+    </div>
+  </div>
+
   ...
   <div id="generatedSelect">
     <!-- Generated <select> will go here -->
