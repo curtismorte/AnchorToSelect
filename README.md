@@ -6,7 +6,6 @@ AnchorToSelect
 <ul>
 <li>jQuery 1.6+</li>
 </ul>
-==============
 
 <h2>Default Options</h2>
 <p>AnchorToSelect has three default options:</p>
@@ -20,13 +19,13 @@ AnchorToSelect
 ```
 
 <h4>Option Definitions</h4>
-<p><strong>container:</strong> is an array object. It requires that the user pass an array of selectors to container so it knows where to look for <a> elements.
-<p><strong>idName:</strong> is a string value. It's the ID attribute that will be added to the generated <select> element.</p>
+<p><strong>container:</strong> is an array object. It requires that the user pass an array of selectors to container so it knows where to look for anchor elements.
+<p><strong>idName:</strong> is a string value. It's the ID attribute that will be added to the generated select element.</p>
 <p><strong>debugFlag:</strong> is a boolean value. If set to 1, you will see an output of all links that were iterated over and their respective containers inside of the console.</p>
-<p><strong>placeholder:</strong> is a string value. It's will be added to the text for the first <option> element of the generated <select> element.</p>
+<p><strong>placeholder:</strong> is a string value. It's will be added to the text for the first option element of the generated <select> element.</p>
 
 <h2>Usage</h2>
-<p>To use the plugin, define your container and create an empty <div> so AnchorToSelect knows where to place the <select> element.</p>
+<p>To use the plugin, define your container and create an empty div so AnchorToSelect knows where to place the select element.</p>
 ```
 <body>
 
