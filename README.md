@@ -1,6 +1,7 @@
 AnchorToSelect
 ==============
 <p>AnchorToSelect is a jQuery plugin that will get all anchor elements inside of a one or more container(s) and add them as options to an HTML select element which will be added to a specified place in the document.<p>
+<p>AnchorToSelect comes with a development (3KB) and minified version (2KB).</p>
 
 <h2>Dependecies</h2>
 <ul>
