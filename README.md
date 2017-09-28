@@ -11,7 +11,7 @@ AnchorToSelect v1.0
 <h2>Default Options</h2>
 <p>AnchorToSelect has four default options:</p>
 
-```JSON
+```
 {
   container: [],
   idName: 'anchortoselect',
