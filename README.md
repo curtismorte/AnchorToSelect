@@ -10,7 +10,8 @@ AnchorToSelect v1.0
 
 <h2>Default Options</h2>
 <p>AnchorToSelect has four default options:</p>
-```
+
+```JSON
 {
   container: [],
   idName: 'anchortoselect',
@@ -29,7 +30,8 @@ AnchorToSelect v1.0
 
 <h2>Usage</h2>
 <p>To use the plugin, fill the container array and create an empty division so AnchorToSelect knows where to place the select element in the document.</p>
-```
+
+```html
 <body>
 
   <!-- Get all the anchor elements inside of <nav> -->
